@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="description" content="Creating a layout using CSS Grid">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Week4| Pizza Order Form </title>
+    <!-- add our font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+    wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,
+    900&display=swap" rel="stylesheet">
+    <!-- Add our CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<!--header -->
+<header>
+<div>
+    <a href="index.html"><img src="logo%20(2).png" alt="header logo"> </a>
+</div>
+    <nav>
+        <menu>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About Us</a></li>
+        </menu>
+    </nav>
+</header>
+<section class="lesson-masthead">
+    <h1>Get Your Pizza Here</h1>
+</section>
+
+<main>
+    <section>
+        <h2>Italian Pizza</h2>
+        <div>
+            <p>
+                Italy has many variations of pizza. The Neapolitan pizza, or Naples-style pizza, is made
+                specifically with buffalo mozzarella (produced from the milk of Italian Mediterranean buffalo)
+                or fior di latte (mozzarella produced from the milk of prized Agerolese cows) and with
+                San Marzano tomatoes or pomodorino vesuviano (a variety of grape tomato grown in Naples).
+                Roman pizza often omits tomatoes (an early 16th-century import) and uses onions and olives.
+                The Ligurian pizza resembles the pissaladière of Provence in France, adding anchovies to olives
+                and onions. Pizza has also spread from Italy throughout much of the rest of the world, and,
+                in regions outside of Italy, the toppings used vary with the ingredients available and the
+                flavour profile preferred.
+            </p>
+        </div>
+    <div>
+        <img src="pizza%204.jpg" alt="image1">
+    </div>
+        <div>
+            <p>
+                The popularity of pizza in the United States began with the Italian community in New York
+                City, where the Neapolitan pizza had an early influence. The first pizzeria appeared in
+                New York City about the turn of the 20th century. After World War II the pizza industry
+                boomed. Soon there was scarcely a hamlet without a pizzeria. Sausage, bacon, ground beef,
+                pepperoni, mushrooms, and peppers are traditional toppings familiar to many Americans,
+                but ingredients as varied as arugula, pancetta, and truffles have found their way
+                onto pizzas there. Variations are also often tied to different regions in the country,
+                Chicago’s deep-dish pizza and California-style pizza among them.
+            </p>
+        </div>
+</section>
+
+<section>
+    <h2>The World of Pizza</h2>
+        <div>
+            <img src="pizza%206.jpg" alt="image 2">
+        </div>
+</section>
+
+
+</main>
+<aside>
+<article>
+    <h2>Gyro</h2>
+    <figure>
+        <img src="pizza%204.jpg" alt="image 3">
+        <figcaption>Gyro, a Greek dish of roasted meat served in a pita, usually with tomato,
+            onion, and tzatziki, a cold, creamy sauce made from yogurt, cucumber, garlic, and
+            various spices. Gyro meat—typically lamb, beef, pork, or chicken—is roasted on a
+            vertical skewer and sliced off in thin, crispy shavings as it cooks. The dish is
+            popular around the world, and many variations exist.</figcaption>
+    </figure>
+</article>
+
+    <article>
+        <h2>Gordita</h2>
+        <figure>
+            <img src="pizza%205.jpg" alt="image 4">
+            <figcaption>Gordita, a small Mexican corn cake that is fried, baked, or grilled and
+                stuffed with various ingredients. A gordita—Spanish for “fat”—is made using masa
+                dough, and the typical fillings include cheese, shredded meats or chicharrón
+                (fried pork rind), mushrooms, potatoes, and refried beans. Gorditas are a common
+                street snack across much of Mexico</figcaption>
+        </figure>
+
+    </article>
+</aside>
+<footer>
+    <div>
+        <a href="index.html"><img src="logo%20(2).png" alt="footer logo"> </a>
+    </div>
+
+
+
+    <div>
+        <form action="somefile" method="post" enctype="multipart/form-data">
+            <div>
+                <label>Name</label>
+                <input type="text" placeholder="Full Name" required>
+
+                <br>
+
+                <label>E-mail</label>
+                <input type="email" placeholder="E-mail" required>
+                <br>
+
+            </div>
+            <div>
+                <label>Size of Pizza:</label>
+                <input type="radio" id="Small" name="Pizza Size" value="Small">
+                <label for="Small">Small</label>
+                <input type="radio" id="Medium" name="Pizza Size" value="Medium">
+                <label for="Medium">Medium</label>
+                <input type="radio" id="Large" name="Pizza Size" value="Large">
+                <label for="Large">Large</label>
+                <br>
+            </div>
+
+            <div>
+                <label>Toppings:</label>
+                <div>
+                    <input type="checkbox" id="Pepperoni" name="toppings" value="pepperoni">
+                    <label for="Pepperoni">Pepperoni</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Mushrooms" name="toppings" value="mushrooms">
+                    <label for="Mushrooms">Mushrooms</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Onions" name="toppings" value="onions">
+                    <label for="Onions">Onions</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Capsicum" name="toppings" value="capsicum">
+                    <label for="Capsicum">Capsicum</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Sausage" name="toppings" value="sausage">
+                    <label for="Sausage">Sausage</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="BlackOlives" name="toppings" value="Black Olives">
+                    <label for="BlackOlives">Black Olives</label>
+                </div>
+            </div>
+            <div>
+                <label>Sauce:</label>
+                <div>
+                    <input type="radio" id="PizzaSauce" name="Sauce" value="Pizza Sauce">
+                    <label for="PizzaSauce">Pizza Sauce</label>
+                </div>
+                <div>
+                    <input type="radio" id="BBQSauce" name="Sauce" value="BBQ Sauce">
+                    <label for="BBQSauce">BBQ Sauce</label>
+                </div>
+                <div>
+                    <input type="radio" id="AlferadoSauce" name="Sauce" value="Alferado Sauce">
+                    <label for="AlferadoSauce">Alferado Sauce</label>
+                </div>
+                <div>
+                    <input type="radio" id="RanchDressing" name="Sauce" value="Ranch Dressing">
+                    <label for="RanchDressing">Ranch Dressing</label>
+                    <br>
+                    <input type="submit" value="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</footer>
+</body>
+</html>
